@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Audio Test 🎧</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <div
+        class="particulas"
+        id="particulas"
+    ></div>
+
+
+    <!-- =========================
+         PANTALLA INICIAL
+    ========================== -->
+
+    <section
+        class="inicio"
+        id="inicio"
+    >
+
+        <div class="spotify-logo">
+            🎧
+        </div>
+
+
+        <p class="mini-titulo">
+            AUDIO SYSTEM
+        </p>
+
+
+        <h1>
+            Prueba de reproducción
+        </h1>
+
+
+        <p class="descripcion">
+
+            Necesito comprobar que este
+            reproductor funciona correctamente.
+
+        </p>
+
+
+        <div class="artistas">
+
+            <span>
+                Kris R
+            </span>
+
+            <span class="x">
+                ×
+            </span>
+
+            <span>
+                Blessd
+            </span>
+
+        </div>
+
+
+        <button id="iniciarBtn">
+            INICIAR PRUEBA
+        </button>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTENIDO
+    ========================== -->
+
+    <main
+        class="contenido oculto"
+        id="contenido"
+    >
+
+
+        <!-- PROCESO -->
+
+        <section
+            class="proceso"
+            id="proceso"
+        >
+
+            <div class="logo-grande">
+                🎧
+            </div>
+
+
+            <h2>
+                Analizando audio...
+            </h2>
+
+
+            <p id="estado">
+                Inicializando reproductor...
+            </p>
+
+
+            <div class="barra">
+
+                <div
+                    class="progreso"
+                    id="progreso"
+                ></div>
+
+            </div>
+
+
+            <p
+                class="porcentaje"
+                id="porcentaje"
+            >
+                0%
+            </p>
+
+        </section>
+
+
+
+        <!-- RESULTADO -->
+
+        <section
+            class="resultado oculto"
+            id="resultado"
+        >
+
+            <div class="check">
+                ✓
+            </div>
+
+
+            <h1>
+                Prueba completada
+            </h1>
+
+
+            <p>
+                El sistema de reproducción
+                está funcionando correctamente.
+            </p>
+
+
+
+            <!-- ARTISTAS DETECTADOS -->
+
+            <div
+                class="artistas-detectados"
+                id="artistasDetectados"
+            ></div>
+
+
+
+            <!-- REPRODUCTOR -->
+
+            <div class="reproductor">
+
+
+                <!-- PORTADA -->
+
+                <div class="portada">
+
+                    <img
+                        id="portada"
+                        src="./fotos/album.jpg"
+                        alt="Portada"
+                    >
+
+                </div>
+
+
+
+                <!-- INFORMACIÓN DE LA CANCIÓN -->
+
+                <div class="info-cancion">
+
+                    <strong id="tituloCancion">
+                        BLESSD ❌ KRIS R | POLOS OPUESTOS REMIX ☯️
+                    </strong>
+
+                    <span id="artistaCancion">
+                        Blessd & Kris R
+                    </span>
+
+                </div>
+
+
+
+                <!-- BARRA DE TIEMPO -->
+
+                <div
+                    class="linea-tiempo"
+                    id="lineaTiempo"
+                >
+
+                    <div
+                        class="linea-progreso"
+                        id="lineaProgreso"
+                    ></div>
+
+                </div>
+
+
+
+                <!-- TIEMPOS -->
+
+                <div class="tiempos">
+
+                    <span id="tiempoActual">
+                        0:00
+                    </span>
+
+                    <span id="duracion">
+                        0:00
+                    </span>
+
+                </div>
+
+
+
+                <!-- CONTROLES -->
+
+                <div class="controles">
+
+                    <button
+                        class="control"
+                        id="anteriorBtn"
+                    >
+                        ⏮
+                    </button>
+
+
+                    <button
+                        class="play"
+                        id="playBtn"
+                    >
+                        ▶
+                    </button>
+
+
+                    <button
+                        class="control"
+                        id="siguienteBtn"
+                    >
+                        ⏭
+                    </button>
+
+                </div>
+
+
+
+                <!-- ESTADO -->
+
+                <div
+                    class="audio-status"
+                    id="audioStatus"
+                >
+                    ● Audio listo
+                </div>
+
+            </div>
+
+
+
+            <p class="mensaje-final">
+
+                Gracias por participar en esta
+                prueba de laboratorio musical 😂
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        AUDIO TEST • SYSTEM v2.0
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
